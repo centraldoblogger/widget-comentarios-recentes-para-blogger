@@ -1,0 +1,61 @@
+/*!
+ * Centraldoblogger-comentarios-recentes v1.0.0
+ * Copyright 2019 Central do Blogger
+ */
+.centraldoblogger-cmts__card-content {
+    font-size: 14px;
+    display: flex;
+}
+.centraldoblogger-cmts__data {
+    line-height: 1.4;
+}
+.centraldoblogger-cmts__image {
+    flex: 0 0 auto;
+    transform: translateY(0);
+    transition: transform .3s;
+}
+.centraldoblogger-cmts__card-content:hover .centraldoblogger-cmts__image {
+    transform: translateY(-.25em);
+}
+
+/*
+=> Personalizacao
+*/
+
+/* Corpo
+-----------------------------------------*/
+.centraldoblogger-cmts__card-content {
+    padding: 1.5em;
+    margin-bottom: .5em;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0,21,64,.14), 0 2px 20px rgba(0,21,64,.05);
+}
+/* Avatar
+-----------------------------------------*/
+.centraldoblogger-cmts__image {
+    margin-right: 1em;
+}
+.centraldoblogger-cmts__image img {
+    width: 45px;
+    border-radius: 50%;
+    box-shadow: 0 2px 3px rgba(0,21,64,.2), 0 2px 5px rgba(0,21,64,.05);
+}
+/* Conteudo
+-----------------------------------------*/
+.centraldoblogger-cmts__snippet {
+    color: #37474F;
+}
+.centraldoblogger-cmts__title {
+    font-size: 1em;
+    margin-bottom: .25em;
+}
+.centraldoblogger-cmts__title a {
+    color: #263238;
+    margin-right: .5em;
+    font-weight: 500;
+}
+.centraldoblogger-cmts__date {
+    color: #B0BEC5;
+    margin-bottom: .5em;
+    font-size: .9em;
+}
